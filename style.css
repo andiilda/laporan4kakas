@@ -32,3 +32,16 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
+p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+footer{
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(64, 49, 0);
+        color: #fff;
+        position: relative;;
+        bottom: 0;
+        width: 100%;
+    }
