@@ -1,50 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    width: 100%;
+    margin: 30px;
+    background-color: antiquewhite;
 }
-header{
-    flex-direction: column;
-    background-color: blue;
-    padding: 10px 0;
+#profile-container {
+    max-width: 300px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+#profile-image {
+    width: 100%;
+    height: auto;
+}
+#profil-name {
     text-align: center;
 }
 
-.container{
-    width: 88%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: blanchedalmond;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-}
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(46, 26, 0)    ;
-    padding: 10px 0;
-}
-nav a{
+#header {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background-color: burlywood;
+    text-align: center;
     color: white;
-    text-decoration: none;
-    margin: 10px 0;
 }
-nav a:hover{
-    text-decoration: underline;
-}
-p{
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-footer{
-        text-align: center;
-        padding: 10px;
-        background-color: rgb(64, 49, 0);
-        color: #fff;
-        position: relative;;
-        bottom: 0;
-        width: 100%;
-    }
-    h1,h2,h3{
-        color:rgb(244, 225, 225)
-    }
