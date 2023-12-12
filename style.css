@@ -17,12 +17,21 @@ body {
     text-align: center;
 }
 
+<<<<<<< HEAD
 #footer {
     width: 100%;
+=======
+#header {
+    width: 100px;
+>>>>>>> development-1.0
     height: 50px;
     line-height: 50px;
     background-color: burlywood;
     text-align: center;
     color: white;
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> development-1.0
